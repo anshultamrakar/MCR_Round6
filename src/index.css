@@ -1,13 +1,37 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
+
+.landing_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuisine_items{
+  list-style-type: none;
+  display: flex;
+  gap : 20px;
+}
+
+.cuisine_listItems{
+  padding: 30px;
+}
+
+.cuisine_listItems button{
+  padding: 10px;
+  background-color: #ef4f5f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
 }
